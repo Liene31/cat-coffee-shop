@@ -31,7 +31,11 @@ main {
       padding: 0.4rem 1.5rem;
       background-color: var(--dark-color);
       color: var(--light-color);
+      font-family: var(--font-family-cute);
       border-radius: 0.2rem;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: bold;
       border: none;
       cursor: pointer;
     }
@@ -44,6 +48,26 @@ main {
 
     img {
       border-radius: 0.4rem;
+    }
+  }
+
+  .types {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    .type {
+      background-color: var(--dark-color);
+      font-family: var(--font-family-cute);
+      color: var(--light-color);
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 3rem 5rem;
+      border-radius: 0.4rem;
+      cursor: pointer;
     }
   }
 }

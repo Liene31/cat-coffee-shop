@@ -1,0 +1,31 @@
+body {
+    background-color: #dddddd;
+    .banner {
+      width: 100%;
+    }
+  
+    .categories-container {
+      padding: 0 1rem;
+    }
+
+}
+
+h1,
+  label {
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-color);
+    font-family: var(--font-family-cute);
+  }
+
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+
+

@@ -5,6 +5,11 @@
   list-style-type: none;
 }
 
+:root {
+  --dark-color: #4a3a30;
+  --light-color: #d9cca7;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -17,20 +22,24 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #4a3a30;
+  background-color: var(--dark-color);
   width: 100%;
   padding: 1rem;
 
   nav {
     display: flex;
     gap: 0.7rem;
+
+    a {
+      color: var(--light-color);
+    }
   }
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #4a3a30;
+  background-color: var(--dark-color);
   width: 100%;
   padding: 1rem;
 

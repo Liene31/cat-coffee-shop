@@ -1,3 +1,49 @@
-h1 {
-  color: red;
+main {
+  background-color: #dddddd;
+  .banner {
+    width: 100%;
+  }
+
+  .categories-container {
+    padding: 0 1rem;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-color);
+    font-family: var(--font-family-cute);
+  }
+
+  .category {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    h3 {
+      color: var(--dark-color);
+      font-family: var(--font-family-cute);
+    }
+
+    button {
+      align-self: center;
+      padding: 0.4rem 1.5rem;
+      background-color: var(--dark-color);
+      color: var(--light-color);
+      border-radius: 0.2rem;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .food-category {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+
+    img {
+      border-radius: 0.4rem;
+    }
+  }
 }

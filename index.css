@@ -37,6 +37,7 @@ main {
 
     margin-bottom: 1rem;
     margin-top: 1rem;
+
     .type {
       background-color: var(--dark-color);
       font-family: var(--font-family-cute);

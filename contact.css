@@ -24,23 +24,43 @@ h1{
     
   }
 
-
-  section{
-
-    width: 50%;
+  .all-section{
+    display: flex;
+    flex-direction: row;
     padding: 2rem;
+    gap: 2rem;
+}
 
-      
+  .picture-background{
+
+    background-color: var(--dark-color);
+    display: flex;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+
+      .picture{
+          border-radius: 0.5rem;
+          display: flex;
+          
+        }
+    }
+
+
+  .form{
 
     
-
-
-        form{
+    form{
+            height: 500px;
             background-color: #ededed;
             border-radius: 0.5rem;
             padding: 1rem;
             display: flex;
             flex-direction: column;
+            width: 300px;
+            padding-bottom: 2rem;
             
             
             .button{
@@ -63,6 +83,10 @@ h1{
                     font-family: var(--font-family-cute);
                     
                     
+                }
+
+                button:hover{
+                    cursor: pointer;
                 }
             }
         }

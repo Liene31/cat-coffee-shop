@@ -60,3 +60,11 @@
     color: var(--dark-color);
     font-family: var(--font-family-cute);
   }
+
+  p {
+    
+    color: var(--dark-color);
+    font-family: var(--font-family-regular);
+    font-size: 12px;
+
+  }

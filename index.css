@@ -4,6 +4,14 @@ main {
     width: 100%;
   }
 
+  h1,
+  h2 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-color);
+    font-family: var(--font-family-cute);
+  }
+
   .category {
     display: flex;
     justify-content: space-between;
